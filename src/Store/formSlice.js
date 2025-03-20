@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  formData: [], //  Stores form entries as an array
+  formData: [], 
 };
 
 const formSlice = createSlice({
@@ -9,7 +9,7 @@ const formSlice = createSlice({
   initialState,
   reducers: {
     addFormData: (state, action) => {
-      state.formData.push(action.payload); //  Push new data into the array
+      state.formData.push(action.payload); 
     },
   },
 });
