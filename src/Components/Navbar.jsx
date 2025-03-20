@@ -5,7 +5,7 @@ import { logoutUser } from "../store/authSlice";
 
 const Navbar = () => {
   const dispatch = useDispatch();
-  const loggedInUser = useSelector((state) => state.auth?.loggedInUser); // ✅ Optional chaining to avoid errors
+  const loggedInUser = useSelector((state) => state.auth?.loggedInUser); 
 
   return (
     <nav className="bg-blue-600 text-white p-4 flex justify-between items-center shadow-md ml-64">
