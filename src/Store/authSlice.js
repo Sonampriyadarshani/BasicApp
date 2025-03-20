@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  loggedInUser: null, // Ensure this property exists
+  loggedInUser: null, 
   users: [],
   error: null,
 };
